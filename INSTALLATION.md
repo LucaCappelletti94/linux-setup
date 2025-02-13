@@ -16,7 +16,7 @@ At the time of writing, the correct hash is `c2e6f4dc37ac944e2ed507f87c6188dd4d3
 
 The suggested method for creating a bootable USB stick is to use the [`Balena Etcher`](https://etcher.balena.io/). It is rather straightforward to use. Just select the downloaded ISO image, the USB stick, and click `Flash!`.
 
-This step took about 10 minutes on my machine.
+This step took about 10 minutes on my machine. Gently take out the USB stick after the process is complete - here somehow I managed to split one of my USB sticks in half, so try not to do that.
 
 ## Booting from the USB stick
 
