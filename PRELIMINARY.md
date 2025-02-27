@@ -4,7 +4,7 @@ In this section I will list the utilities I install on a fresh Linux system. Thi
 
 ```bash
 sudo apt update && sudo apt -y upgrade
-sudo apt -y install curl git cmake clang libssl-dev mold net-tools openssh-server htop libpq-dev libfuse2 libfontconfig-dev
+sudo apt -y install curl git cmake clang libssl-dev mold net-tools openssh-server htop libpq-dev libfuse2 libfontconfig-dev libreadline-dev bison flex
 ```
 
 ## Additional repositories
