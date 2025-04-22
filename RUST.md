@@ -8,6 +8,18 @@ The easiest way is to run the following command in your terminal:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
+## Cargo libraries
+
+Once you have installed Rust, you can install the following libraries to enhance your development experience.
+
+### Taplo
+
+[Taplo](https://taplo.tamasfe.dev/) is a TOML language server and linter. It provides a command-line interface (CLI) for formatting and validating TOML files. It is useful for working with configuration files in Rust projects.
+
+```bash
+cargo install taplo-cli --locked
+```
+
 ## SSCACHE
 
 [SCCACHE](https://github.com/mozilla/sccache) is a ccache-like tool. It is used as a compiler wrapper and avoids compilation when possible. Sccache has the capability to utilize caching in remote storage environments, including various cloud storage options, or alternatively, in local storage.
